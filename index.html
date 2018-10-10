@@ -12,7 +12,6 @@
     crossorigin="anonymous">
 
   <style>
-
   </style>
 
 </head>
@@ -79,7 +78,7 @@
       </div>
       <div class="col-md-8 order-md-1">
         <h4 class="mb-3">Billing address</h4>
-        <form class="needs-validation" novalidate>
+        <form novalidate>
           <div class="row">
             <div class="col-md-6 mb-3">
               <label for="firstName">First name</label>
@@ -237,27 +236,12 @@
   </div>
 
   <script>
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
+
     (function () {
       'use strict';
 
       // WRITE YOUR JAVASCRIPT CODE HERE
 
-      window.addEventListener('load', function () {
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        var forms = document.getElementsByClassName('needs-validation');
-
-        // Loop over them and prevent submission
-        var validation = Array.prototype.filter.call(forms, function (form) {
-          form.addEventListener('submit', function (event) {
-            if (form.checkValidity() === false) {
-              event.preventDefault();
-              event.stopPropagation();
-            }
-            form.classList.add('was-validated');
-          }, false);
-        });
-      }, false);
     })();
 
 
