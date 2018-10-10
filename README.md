@@ -16,7 +16,7 @@ Often, when events happen, you may want to do something.
 
 ### Registering Event Listeners
 
-To execute JavaScript code when events are detected you need to register event listeners/handlers for the DOM element the event is occuring on.
+To execute JavaScript code when events are detected you need to register event listeners/handlers for the DOM element the event is occurring on.
 
 There are multiple ways to register event listeners. Here are the two most common used approaches:
 
