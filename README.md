@@ -16,9 +16,9 @@ Often, when events happen, you may want to do something.
 
 ### Registering Event Listeners
 
-To execute JavaScript code when events are detected you need to register event listeners/handlers for the DOM element the event is occuring on.
+To execute JavaScript code when events are detected you need to register event listeners/handlers for the DOM element the event is occurring on.
 
-There are multiple ways to register event listeners. Here are the two most common used approcahes:
+There are multiple ways to register event listeners. Here are the two most common used approaches:
 
 1. HTML Attribute
 
@@ -64,7 +64,7 @@ For a complete list of events review [w3Schools.com - DOM Events](https://www.w3
 
 Take a look at the index.html file in this repository. Open the file in the Chrome web browser. You should see a checkout page created with the Bootstrap CSS framework.
 
-Let's create some user interactions by using JavaScript events. (Do not change the HTML itself t accomplish any exercises. try to acomplish everyting by using JavScript ;))
+Let's create some user interactions by using JavaScript events. (Do not change the HTML itself to solve any exercises. Try to accomplish everything by using JavScript ;))
 
 1. Alert 'Welcome to our Checkout! Glad you are buying your stuff from us.' when the HTML page has finished loading. Refresh the page.
 
@@ -75,7 +75,7 @@ Let's create some user interactions by using JavaScript events. (Do not change t
    1. Use the HTML attribute as your first solution
    2. Refactor your solution to use the addEventListener method
 
-4. As soon as a user starts typing in the promo code fext field, have the Promo code update on every key stroke. For example if a user starts typing "S" the text "EXAMPLECODE" should change to "S". If the user types the next letter "SU" the Promo code text should read "SU" and so forth.
+4. As soon as a user starts typing in the promo code text field, have the Promo code update on every key stroke. For example if a user starts typing "S" the text "EXAMPLECODE" should change to "S". If the user types the next letter "SU" the Promo code text should read "SU" and so forth.
 
 5. If a user clicks or focuses on any text input field make the corresponding label to the input field should change to the color blue by applying the [class "text-primary"](https://getbootstrap.com/docs/4.1/utilities/colors/) to the label.
 
