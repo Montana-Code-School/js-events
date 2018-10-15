@@ -54,11 +54,22 @@ There are many different HTML DOM events, some of the most commonly used are:
 
 For a complete list of events review [w3Schools.com - DOM Events](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
+### DOM Event Interface
+
+Once the event is triggered and a callback function is called, an event object is also automatically passed to the callback function as the first parameter (see 'event' parameter in greet function in the above example).
+
+The event object contains valuable information about the event itself as well as which element the event got triggered on.
+
+- [event.type](https://developer.mozilla.org/en-US/docs/Web/API/Event/type) - A string containing the event's type
+- [event.target](https://developer.mozilla.org/en-US/docs/Web/API/Event/target) - A reference to the element that dispatched the event
+- [event.preventDefault()](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault) - Prevents default action on an element (i.e. going to href on a an <a> tag)
+
+[MDN - DOM Event Interface ](https://developer.mozilla.org/en-US/docs/Web/API/Event)
+
 ### More Resources
 
 - [Medium - How to handle JS Events](https://medium.freecodecamp.org/event-handling-in-javascript-with-examples-f6bc1e2fff57)
 - [Video - What Are Events in JS](https://www.youtube.com/watch?v=gx0oAgvXyE4)
-- [MDN - DOM Event Interface ](https://developer.mozilla.org/en-US/docs/Web/API/Event)
 
 ### Exercises
 
